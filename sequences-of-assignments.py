@@ -1,3 +1,5 @@
+#Homework Variation 14 for sequences of assignments
+
 # c can be any number so we set c to be any random number 1-10
 # we want (a)x + b to be divisible by whatever random number c is generated
 	# so and and b need to be multiples of c
