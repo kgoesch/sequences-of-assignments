@@ -1,16 +1,16 @@
-#Homework Variation 14 for sequences of assignments
+# Homework Variation 14 for sequences of assignments
 
-# c can be any number so we set c to be any random number 1-10
-# we want (a)x + b to be divisible by whatever random number c is generated
-	# so and and b need to be multiples of c
-	# for this to happen we can take any number u and multiply it by c to create a new number that is a multiple of c
-		# this gives us a
-		# we do the same thing for b using a new number v and multiplying it by c 
+# C can be any number, so we set c to be any random number 1-10.
+# We want (a)x + b to be divisible by whatever random number c is generated.
+	# Thus and and b need to be multiples of c.
+	# In order for this to happen, we can take any number u, and multiply it by c to create a new number that is a multiple of c.
+		# This gives us a.
+		# We do the same thing for b using a new number v, and multiplying it by c. 
 
 import random
 
 # A sequence of assignments to generate a random problem:
-c = random.randint(1, 10) #random.randint(1, 10) produces a random integer from 1 to 10, endpoints included
+c = random.randint(1, 10) # random.randint(1, 10) produces a random integer from 1 to 10, endpoints included.
 u = random.randint(1, 10)
 v = random.randint(1, 10)
 a = u * c
